@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "三分屏 | Triple View",
+  "version": "1.0",
+  "description": "三分屏新标签页 - 同时浏览多个网站，支持自定义网址和宽度调整 | Three-panel new tab page for viewing multiple websites with customizable URLs and widths",
+  "permissions": [
+    "storage"
+  ],
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "web_accessible_resources": [{
+    "resources": ["nprogress.js"],
+    "matches": ["<all_urls>"]
+  }],
+  "icons": {
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+} 
